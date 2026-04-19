@@ -1,0 +1,405 @@
+{
+  "users": [
+    {
+      "id": "5209f440-0dd6-45a6-aa37-be63286c16b9",
+      "full_name": "John Wick",
+      "given_name": "John",
+      "email": "admin123@gmail.com",
+      "password_hash": "$2a$10$6pqSzck5.QVAEoJuvFSTuOV1ocQz.bdGJlPpJ4aqcTCeCcXwGVRwO",
+      "role": "admin",
+      "department": null,
+      "college": "SRMIST",
+      "status": "Active",
+      "created_at": "2026-02-19T19:44:32.759Z",
+      "family_name": "Wick"
+    },
+    {
+      "id": "f67d8ab3-c075-419f-995b-620c1b50a6d4",
+      "created_at": "2026-04-19T14:08:23.029Z",
+      "google_auth": false,
+      "full_name": "Hari Haran",
+      "given_name": "Hari",
+      "family_name": "Haran",
+      "email": "hari123@gmail.com",
+      "password_hash": "$2a$10$V.zOsmv7K2XGqcmWHQjrfOV7KZA1V4Qz.WIeR5F43icnFfJ9SqwUu",
+      "role": "faculty",
+      "department": "Database Management System",
+      "status": "Active",
+      "college": "SRMIST"
+    },
+    {
+      "id": "4e2b54f6-d135-43d7-b574-ae6bfc455a32",
+      "created_at": "2026-04-19T14:08:46.548Z",
+      "google_auth": false,
+      "full_name": "Jean Justus",
+      "given_name": "Jean",
+      "family_name": "Justus",
+      "email": "jean123@gmail.com",
+      "password_hash": "$2a$10$uH1Zh9DV8lVdHJADsenKauOWFV/F6QoeGB4Vow/BSqc3M1ubJPdaC",
+      "role": "faculty",
+      "department": "Artificial Intelligence",
+      "status": "Active",
+      "college": "SRMIST"
+    },
+    {
+      "id": "37524198-07d6-4591-9c62-8039a46996f0",
+      "created_at": "2026-04-19T14:09:07.297Z",
+      "google_auth": false,
+      "full_name": "Geeta C",
+      "given_name": "Geeta",
+      "family_name": "C",
+      "email": "geeta123@gmail.com",
+      "password_hash": "$2a$10$YoAqC75fvTv2jWFhVfmDR.EUEHH835EKzz6qyHaXnN33Kwq7Uk7JK",
+      "role": "faculty",
+      "department": "Design & Analysis of Algorithm",
+      "status": "Active",
+      "college": "SRMIST"
+    },
+    {
+      "id": "b4741b88-515a-461e-b569-a12c2824d030",
+      "created_at": "2026-04-19T14:09:32.320Z",
+      "google_auth": false,
+      "full_name": "Siva Shankari",
+      "given_name": "Siva",
+      "family_name": "Shankari",
+      "email": "siva123@gmail.com",
+      "password_hash": "$2a$10$BfzFqhz31JAwLu848jZgq.fAJUzwQgxbGc5i5LK4W/AITIAgNpQvu",
+      "role": "faculty",
+      "department": "Internet of things",
+      "status": "Active",
+      "college": "SRMIST"
+    },
+    {
+      "id": "5d32e2dd-a4fe-48e5-a975-e14fbe248a79",
+      "created_at": "2026-04-19T14:10:01.786Z",
+      "google_auth": false,
+      "full_name": "Ramya R",
+      "given_name": "Ramya",
+      "family_name": "R",
+      "email": "ramya123@gmail.com",
+      "password_hash": "$2a$10$7Q7.N8XWR/tPHgqy5NCerei0wc4jFgZNTkzjy4YABKRD3h11dCr/W",
+      "role": "faculty",
+      "department": "Probability and Queuing Theories",
+      "status": "Active",
+      "college": "SRMIST"
+    },
+    {
+      "id": "444a8b9d-9a6a-40f5-a992-a86c4a312e06",
+      "created_at": "2026-04-19T14:10:27.090Z",
+      "google_auth": false,
+      "full_name": "Krithik Raj K",
+      "given_name": "Krithik",
+      "family_name": "Raj K",
+      "email": "krithik123@gmail.com",
+      "password_hash": "$2a$10$D4TNMTmBk7h/9Vh7RYvADuKEsyZIT4Z2FIZXSadodKPFeIw7r40wi",
+      "role": "student",
+      "college": "SRMIST",
+      "status": "Active"
+    },
+    {
+      "id": "fc10bcf7-656c-480d-8b6a-23ca3e68c1df",
+      "created_at": "2026-04-19T14:10:52.419Z",
+      "google_auth": false,
+      "full_name": "Adithya R",
+      "given_name": "Adithya",
+      "family_name": "R",
+      "email": "adi123@gmail.com",
+      "password_hash": "$2a$10$p6UuBlxlqdiDC7iOJPuiruM9HIfOH2eptrkG8QESRPIuWUzKu2vIG",
+      "role": "student",
+      "college": "SRMIST",
+      "status": "Active"
+    },
+    {
+      "id": "0c1e9bbd-44f2-4733-9034-13efdae09fb3",
+      "created_at": "2026-04-19T14:11:18.218Z",
+      "google_auth": false,
+      "full_name": "Jayadev Y",
+      "given_name": "Jayadev",
+      "family_name": "Y",
+      "email": "jayadev123@gmail.com",
+      "password_hash": "$2a$10$XoDlhiu343o0DpzMBJA23eBD3jvj5U8q/rpF7Jod5LLu.Ywa13J2C",
+      "role": "student",
+      "college": "SRMIST",
+      "status": "Active"
+    },
+    {
+      "id": "39011724-8201-40dc-9bf7-5cb48d5c5dd0",
+      "created_at": "2026-04-19T14:11:41.276Z",
+      "google_auth": false,
+      "full_name": "Monish A",
+      "given_name": "Monish",
+      "family_name": "A",
+      "email": "monish123@gmail.com",
+      "password_hash": "$2a$10$U3upiFcuyJmANcHep18ShueoUJTgSjDdr91JMxZlI/JLcSeNWg6uu",
+      "role": "student",
+      "college": "SRMIST",
+      "status": "Active"
+    }
+  ],
+  "courses": [
+    {
+      "id": "e2f100f5-7dd2-4525-9f11-bacaf18ca279",
+      "course_name": "Database Management System",
+      "course_code": "CS5088",
+      "semester": 4,
+      "created_at": "2026-04-19T14:07:22.927Z"
+    },
+    {
+      "id": "fa513d64-4e2e-4e14-89e1-974afb8df363",
+      "course_name": "Design & Analysis of Algorithm",
+      "course_code": "CS1318",
+      "semester": 4,
+      "created_at": "2026-04-19T14:07:45.440Z"
+    },
+    {
+      "id": "50fcff00-7414-4d8c-8814-2f182ff03d2d",
+      "course_name": "Probability and Queuing Theories",
+      "course_code": "CS1534",
+      "semester": 4,
+      "created_at": "2026-04-19T14:07:51.537Z"
+    },
+    {
+      "id": "512eafbb-6904-4d5f-a43c-b4941f8caee4",
+      "course_name": "Internet of things",
+      "course_code": "CS2627",
+      "semester": 4,
+      "created_at": "2026-04-19T14:07:56.013Z"
+    },
+    {
+      "id": "ecb57048-a84e-45af-a8c9-47581e28229b",
+      "course_name": "Artificial Intelligence",
+      "course_code": "CS3345",
+      "semester": 4,
+      "created_at": "2026-04-19T14:08:00.161Z"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "12279f8e-7df4-4f91-97bb-959e7859521b",
+      "student_id": "444a8b9d-9a6a-40f5-a992-a86c4a312e06",
+      "course_id": "ecb57048-a84e-45af-a8c9-47581e28229b",
+      "faculty_id": "4e2b54f6-d135-43d7-b574-ae6bfc455a32",
+      "responses": {
+        "1": 8,
+        "2": 7,
+        "3": "Very effective",
+        "4": 75,
+        "5": 85,
+        "6": "Very good",
+        "7": "Always",
+        "8": 90,
+        "9": 8,
+        "10": "Excellent",
+        "11": "Mam teaches complex concepts in simple way!"
+      },
+      "overall_comment": "Mam teaches complex concepts in simple way!",
+      "overall_rating": 8,
+      "timestamp": "2026-04-19T14:14:18.660Z"
+    },
+    {
+      "id": "bdb1ac1b-c9b3-4b4a-84b9-459384b61b81",
+      "student_id": "444a8b9d-9a6a-40f5-a992-a86c4a312e06",
+      "course_id": "e2f100f5-7dd2-4525-9f11-bacaf18ca279",
+      "faculty_id": "f67d8ab3-c075-419f-995b-620c1b50a6d4",
+      "responses": {
+        "1": 9,
+        "2": 8,
+        "3": "Extremely effective",
+        "4": 85,
+        "5": 70,
+        "6": "Very good",
+        "7": "Often",
+        "8": 90,
+        "9": 8,
+        "10": "Good",
+        "11": "Overall teaching is excellent!!"
+      },
+      "overall_comment": "Overall teaching is excellent!!",
+      "overall_rating": 9,
+      "timestamp": "2026-04-19T14:16:56.856Z"
+    },
+    {
+      "id": "a3b6d69d-f8a7-419b-b347-89e0ff1debb3",
+      "student_id": "444a8b9d-9a6a-40f5-a992-a86c4a312e06",
+      "course_id": "fa513d64-4e2e-4e14-89e1-974afb8df363",
+      "faculty_id": "37524198-07d6-4591-9c62-8039a46996f0",
+      "responses": {
+        "1": 9,
+        "2": 7,
+        "3": "Moderately effective",
+        "4": 77,
+        "5": 81,
+        "6": "Good",
+        "7": "Often",
+        "8": 70,
+        "9": 8,
+        "10": "Very Good",
+        "11": "Teaching and explaining the concept is good. "
+      },
+      "overall_comment": "Teaching and explaining the concept is good. ",
+      "overall_rating": 9,
+      "timestamp": "2026-04-19T14:18:19.228Z"
+    },
+    {
+      "id": "d2f63c9f-7cb1-4367-ab1a-5473ecf5d6dc",
+      "student_id": "444a8b9d-9a6a-40f5-a992-a86c4a312e06",
+      "course_id": "512eafbb-6904-4d5f-a43c-b4941f8caee4",
+      "faculty_id": "b4741b88-515a-461e-b569-a12c2824d030",
+      "responses": {
+        "1": 7,
+        "2": 9,
+        "3": "Very effective",
+        "4": 91,
+        "5": 70,
+        "6": "Very good",
+        "7": "Sometimes",
+        "8": 80,
+        "9": 8,
+        "10": "Excellent",
+        "11": "Mam has a unique way of teaching."
+      },
+      "overall_comment": "Mam has a unique way of teaching.",
+      "overall_rating": 8,
+      "timestamp": "2026-04-19T14:19:41.624Z"
+    },
+    {
+      "id": "712cad3e-bd12-4d52-a36d-9e3bc3a7a187",
+      "student_id": "444a8b9d-9a6a-40f5-a992-a86c4a312e06",
+      "course_id": "50fcff00-7414-4d8c-8814-2f182ff03d2d",
+      "faculty_id": "5d32e2dd-a4fe-48e5-a975-e14fbe248a79",
+      "responses": {
+        "1": 6,
+        "2": 8,
+        "3": "Extremely effective",
+        "4": 65,
+        "5": 75,
+        "6": "Very good",
+        "7": "Often",
+        "8": 86,
+        "9": 9,
+        "10": "Very Good",
+        "11": "Mam explains hard derivations in easy way.\n"
+      },
+      "overall_comment": "Mam explains hard derivations in easy way.\n",
+      "overall_rating": 8,
+      "timestamp": "2026-04-19T14:21:38.614Z"
+    },
+    {
+      "id": "2ef1b944-9c14-4de7-bd90-48a0562ef0e4",
+      "student_id": "fc10bcf7-656c-480d-8b6a-23ca3e68c1df",
+      "course_id": "ecb57048-a84e-45af-a8c9-47581e28229b",
+      "faculty_id": "4e2b54f6-d135-43d7-b574-ae6bfc455a32",
+      "responses": {
+        "1": 7,
+        "2": 8,
+        "3": "Moderately effective",
+        "4": 74,
+        "5": 60,
+        "6": "Very good",
+        "7": "Always",
+        "8": 87,
+        "9": 8,
+        "10": "Very Good",
+        "11": "Mam is being helpful in helping out things before exams!"
+      },
+      "overall_comment": "Mam is being helpful in helping out things before exams!",
+      "overall_rating": 8,
+      "timestamp": "2026-04-19T14:23:40.330Z"
+    },
+    {
+      "id": "09ec71c0-bf0c-4cd5-91c8-5cc99d498907",
+      "student_id": "fc10bcf7-656c-480d-8b6a-23ca3e68c1df",
+      "course_id": "e2f100f5-7dd2-4525-9f11-bacaf18ca279",
+      "faculty_id": "f67d8ab3-c075-419f-995b-620c1b50a6d4",
+      "responses": {
+        "1": 8,
+        "2": 9,
+        "3": "Extremely effective",
+        "4": 65,
+        "5": 80,
+        "6": "Excellent",
+        "7": "Often",
+        "8": 80,
+        "9": 7,
+        "10": "Excellent",
+        "11": "Teaching method is excellent! "
+      },
+      "overall_comment": "Teaching method is excellent! ",
+      "overall_rating": 8,
+      "timestamp": "2026-04-19T14:24:54.224Z"
+    },
+    {
+      "id": "3073b242-a65a-45d7-b322-5c8789d85cfd",
+      "student_id": "fc10bcf7-656c-480d-8b6a-23ca3e68c1df",
+      "course_id": "fa513d64-4e2e-4e14-89e1-974afb8df363",
+      "faculty_id": "37524198-07d6-4591-9c62-8039a46996f0",
+      "responses": {
+        "1": 8,
+        "2": 7,
+        "3": "Very effective",
+        "4": 75,
+        "5": 62,
+        "6": "Very good",
+        "7": "Often",
+        "8": 53,
+        "9": 7,
+        "10": "Satisfactory",
+        "11": "Overall teaching is good\n"
+      },
+      "overall_comment": "Overall teaching is good\n",
+      "overall_rating": 8,
+      "timestamp": "2026-04-19T15:14:35.561Z"
+    },
+    {
+      "id": "041bced8-bb7e-4600-9954-5350b9c9610e",
+      "student_id": "fc10bcf7-656c-480d-8b6a-23ca3e68c1df",
+      "course_id": "512eafbb-6904-4d5f-a43c-b4941f8caee4",
+      "faculty_id": "b4741b88-515a-461e-b569-a12c2824d030",
+      "responses": {
+        "1": 6,
+        "2": 7,
+        "3": "Moderately effective",
+        "4": 65,
+        "5": 55,
+        "6": "Excellent",
+        "7": "Always",
+        "8": 95,
+        "9": 9,
+        "10": "Good",
+        "11": "Mam explains hard topic in easy ways by telling examples."
+      },
+      "overall_comment": "Mam explains hard topic in easy ways by telling examples.",
+      "overall_rating": 8,
+      "timestamp": "2026-04-19T15:15:51.787Z"
+    },
+    {
+      "id": "ed50c0c6-8da8-4d73-becd-0f94b295b5d4",
+      "student_id": "fc10bcf7-656c-480d-8b6a-23ca3e68c1df",
+      "course_id": "50fcff00-7414-4d8c-8814-2f182ff03d2d",
+      "faculty_id": "5d32e2dd-a4fe-48e5-a975-e14fbe248a79",
+      "responses": {
+        "1": 7,
+        "2": 8,
+        "3": "Moderately effective",
+        "4": 70,
+        "5": 65,
+        "6": "Very good",
+        "7": "Always",
+        "8": 65,
+        "9": 10,
+        "10": "Good",
+        "11": "mam teaches excellent!"
+      },
+      "overall_comment": "mam teaches excellent!",
+      "overall_rating": 9,
+      "timestamp": "2026-04-19T15:16:56.894Z"
+    }
+  ],
+  "system_config": [
+    {
+      "config_key": "feedback_session_status",
+      "config_value": "open"
+    }
+  ],
+  "course_assignments": []
+}
