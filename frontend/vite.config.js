@@ -10,7 +10,7 @@ export default defineConfig({
     host: true,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://dbms-student-feedback-system.onrender.com',
         changeOrigin: true,
         secure: false,
       },
