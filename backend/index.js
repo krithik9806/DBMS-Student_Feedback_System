@@ -7,7 +7,12 @@ const jwt = require('jsonwebtoken');
 const { OAuth2Client } = require('google-auth-library');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+    origin: "https://sfms-lilac.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true
+}));
+
 app.use(express.json());
 
 // --- DATABASE SCHEMA INTEGRITY ---
