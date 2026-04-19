@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000'; // Connecting directly to backend port
+const API_BASE_URL = 'https://dbms-student-feedback-system.onrender.com'; // Connecting directly to backend port
 export const API_ENDPOINTS = {
     LOGIN: `${API_BASE_URL}/api/auth/login`,
     REGISTER: `${API_BASE_URL}/api/auth/register`,
