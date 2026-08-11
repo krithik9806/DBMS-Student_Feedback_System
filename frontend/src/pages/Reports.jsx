@@ -55,7 +55,7 @@ const Reports = () => {
                     avgRating: avg,
                     totalResponses: total,
                     topFaculty: top,
-                    satisfaction: Math.round((avg / 5) * 100)
+                    satisfaction: Math.round((avg / 10) * 100)
                 });
             }
         } catch (err) {

@@ -7,8 +7,22 @@ const jwt = require('jsonwebtoken');
 const { OAuth2Client } = require('google-auth-library');
 
 const app = express();
+
+const allowedOrigins = [
+    "https://sfms-lilac.vercel.app",
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "http://localhost:5000"
+];
+
 app.use(cors({
-    origin: "https://sfms-lilac.vercel.app",
+    origin: function (origin, callback) {
+        if (!origin || allowedOrigins.includes(origin) || process.env.NODE_ENV !== 'production') {
+            callback(null, true);
+        } else {
+            callback(null, true);
+        }
+    },
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
@@ -30,6 +44,9 @@ const initializeDatabase = async () => {
                 END IF;
                 IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name='users' AND column_name='family_name') THEN
                     ALTER TABLE users ADD COLUMN family_name VARCHAR(255);
+                END IF;
+                IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name='users' AND column_name='google_auth') THEN
+                    ALTER TABLE users ADD COLUMN google_auth BOOLEAN DEFAULT false;
                 END IF;
             END $$;
         `);

@@ -17,6 +17,7 @@ CREATE TABLE IF NOT EXISTS users (
     department VARCHAR(100), -- For faculty/students
     college VARCHAR(255) DEFAULT 'SRMIST',
     status VARCHAR(20) DEFAULT 'Active' CHECK (status IN ('Active', 'On Leave', 'Decommissioned')),
+    google_auth BOOLEAN DEFAULT false,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     last_login TIMESTAMP WITH TIME ZONE
 );

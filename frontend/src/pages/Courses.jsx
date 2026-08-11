@@ -145,7 +145,7 @@ const Courses = () => {
                             </span>
                         </h1>
                         <p className="text-gray-400 text-lg leading-relaxed max-w-2xl">
-                            Hey <span className="text-white font-bold">{user ? user.given_name || user.name.split(' ')[0] : 'Student'}</span>,
+                            Hey <span className="text-white font-bold">{user ? user.given_name || (user.full_name ? user.full_name.split(' ')[0] : 'Student') : 'Student'}</span>,
                             here are the subjects you're currently mastering at SRMIST.
                             Each course is a step towards your digital expertise.
                         </p>

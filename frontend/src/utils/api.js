@@ -1,4 +1,14 @@
-const API_BASE_URL = 'https://dbms-student-feedback-system.onrender.com'; // Connecting directly to backend port
+const getApiBaseUrl = () => {
+    if (import.meta.env.VITE_API_BASE_URL) {
+        return import.meta.env.VITE_API_BASE_URL;
+    }
+    if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+        return 'http://localhost:5000';
+    }
+    return 'https://dbms-student-feedback-system.onrender.com';
+};
+
+const API_BASE_URL = getApiBaseUrl();
 export const API_ENDPOINTS = {
     LOGIN: `${API_BASE_URL}/api/auth/login`,
     REGISTER: `${API_BASE_URL}/api/auth/register`,

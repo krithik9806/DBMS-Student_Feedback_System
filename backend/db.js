@@ -199,8 +199,11 @@ const virtualQuery = (text, params = []) => {
                     student_name: student.full_name || 'Anonymous',
                     course_name: course.course_name || 'General Inquiry',
                     student: student.full_name || 'Anonymous',
+                    student_dept: student.department || 'General',
+                    student_college: student.college || 'SRMIST',
                     course: course.course_name || 'General Inquiry',
-                    faculty: faculty.full_name || 'Unassigned'
+                    faculty: faculty.full_name || 'Unassigned',
+                    rating: f.overall_rating || f.rating || 5
                 };
             });
 

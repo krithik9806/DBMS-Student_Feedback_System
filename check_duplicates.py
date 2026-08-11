@@ -22,7 +22,7 @@ def check_duplicate_keys(file_path):
                 print("Block context:", block[:100], "...")
             seen.add(k)
 
-root_dir = r"d:\PROJECTS\DBMS-sfms\frontend\src"
+root_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'frontend', 'src')
 for root, dirs, files in os.walk(root_dir):
     for file in files:
         if file.endswith('.jsx'):
